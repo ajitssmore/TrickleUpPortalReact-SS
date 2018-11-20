@@ -49,6 +49,7 @@ class DistrictForm extends Component {
       district: district
     });
   }
+  // This code added by me
   onChangeDistrict(event) {
     let district = { ...this.state.district };
     district[event.target.name] = event.target.value;
